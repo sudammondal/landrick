@@ -1,0 +1,71 @@
+.banner_worp {
+    position: relative;
+        background-color: #ddd;
+        border-bottom-right-radius: 10%;
+        border-bottom-left-radius: 10%;
+    .prodactmain {
+        .Prodact_manu {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            position: relative;
+            .all_prodact {
+                letter-spacing: 1px;
+                font-family: "Nunito",sans-serif;
+                line-height: 1.5;
+                font-weight: 600;
+                font-size: 24px;
+                margin-bottom: 0;
+            }
+        }
+    }
+    .banner_button {
+        position: absolute;
+        bottom: -35px;
+        right: 50%;
+        list-style: none;
+        display: inline-flex;
+        border-radius: 4px;
+        transform: translateX(50%);
+        box-shadow: 0 0 3px rgb(60 72 88 / 15%);
+        padding: 3px 16px;
+        background-color: #ffffff;
+        .Bbutton{
+            
+            .proudac_manu {
+                display: block;
+                color: #3c4858;
+                font-size: 13px;
+                background-color: transparent;
+                font-weight: 700;
+                letter-spacing: 1px;
+                line-height: 24px;
+                text-transform: uppercase;
+                transition: all 0.5s ease;
+                font-family: "Nunito",sans-serif;
+                padding: 6px 6px;
+                text-decoration: none;
+               
+                .drowp_icon {
+                    display: inline-block;
+                    margin-left: 5px;
+                    .Dawn {
+                        font-size: 20px;
+                        line-height: 0.1;  
+                        transition: all 0.5s ease;
+                    }
+                }
+                &:hover,
+                &.active {
+                    color: #2f55d4;
+                    .drowp_icon {
+                    .Dawn {
+                        color: #2f55d4;
+                    }
+                }
+                } 
+            }
+        }
+    }
+}

@@ -1,0 +1,343 @@
+.choping_worp {
+    padding: 100px 0;
+    position: relative;
+    .catagory {
+        position: sticky;
+        top: 5px;
+        left: 0;
+        .search_bar{
+            border: 1px solid #ddd;
+            padding: 9px 14px;
+            background: #fff; 
+            border-radius: 5px;
+            margin-bottom: 35px;
+            .searchform {
+                position: relative;
+                .border {
+                    background-color: initial;
+                    border: 1px solid transparent;
+                    outline: none;
+                    font-size: 14px;
+                   
+                }
+                input[type="submit"] {
+                    float: right;
+                    width: 30px;
+                    opacity: 0;
+                }
+                &:before {
+                    content: "\f002";
+                    font-family: "FontAwesome";
+                    position: absolute;
+                    top: 0;
+                    right: 0;
+                    width: 30px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    text-align: center;
+                }
+            }
+        }
+        .widget_title{
+            font-family: "Nunito",sans-serif;
+            line-height: 1.5;
+            font-weight: 600;
+            font-size: 20px;
+            margin-bottom: 20px;
+        }
+        .list_unstyled {
+            list-style: none;
+            margin-bottom: 35px;
+            padding: 0;
+            .listManu {
+                padding-bottom: 10px;
+                a {
+                    font-size: 15px;
+                    color: #3c4858;
+                    transition: all 0.5s ease;
+                    text-decoration: none;
+                    &:hover {
+                        color: #2f55d4;
+                    }
+                }
+
+            }
+            .list-inline-item {
+                .btn {
+                    height: 30px;
+                    width: 30px;
+                    line-height: 28px;
+                    border-radius: 50%;
+                }
+            }
+            .media {
+                display: flex;
+                a {
+                    .avatar {
+                        width: 65px;
+                    }
+                }
+                .content {
+                    margin-left: 20px;
+                    .text_dark{
+                        color: #323c49;
+                        font-family: "Nunito",sans-serif;
+                        line-height: 1.5;
+                        font-weight: 600;
+                    }
+                    .text_muted {
+                        color: #8492a6;
+                        font-style: italic;
+                        margin-top: 5px;
+                        
+                    }
+                    .text-danger {
+                        margin-left: 5px;
+                    }
+                }
+            }
+        }
+    }
+
+    .section_title{
+        .section_h5 {
+            margin-top: 7px;
+        }
+    }
+    .Selector {
+        .form {
+            position: relative;
+            .form_grup {
+                .selector_h {
+                    display: block;
+                    width: 100%;
+                    padding: 9px 10px;
+                    font-size: 14px;
+                    font-weight: 400;
+                    line-height: 1.5;
+                    color: #212529;
+                    background-color: #fff;
+                    background-clip: padding-box;
+                    border: 1px solid #2f55d4;
+                    -webkit-appearance: none;
+                    -moz-appearance: none;
+                    appearance: none;
+                    border-radius: 5px;
+                    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+                }
+            }
+            &:before {
+                content: "\f0dc";
+                font-family: "FontAwesome";
+                position: absolute;
+                right: 10px;
+                top: 50%;
+                transform: translateY(-50%);
+            }
+        }
+        .show_icon {
+            .text_muted{
+                .fa {
+                    color: #75859b;
+                }
+            }
+        }
+    }
+    .shope_main{
+        margin-top: 30px;
+        position: relative;
+        .fauter_txt {
+            position: absolute;
+            top: 20px;
+            left: -15px;
+            z-index: 2;
+            padding: 0;
+            list-style: none;
+            .fauter_pra {
+                background-color: #2eca8b;
+                color: #fff;
+                text-decoration: none;
+                transition: color .15s ease;
+                font-size: 12px;
+                padding: 2px 9px;
+                border-radius: 10px;
+            }
+        }
+      
+        .shope_img {
+            position: relative;
+            min-height: 325px;
+            height: 100%;
+            border: 1px solid #ddd;
+            border-radius: 6px;
+            overflow: hidden;
+            box-shadow: 0px 3px 10px -5px;
+            .over_flow {
+                position: absolute;
+                top: 0;
+                right: 0;
+                bottom: 0;
+                left: 0;
+                z-index: 1;
+                transition: all 0.5s ease;
+                display: inline-table;
+            }
+            .over_flow2 {
+                transition: all 0.5s ease;
+                position: absolute;
+                top: 0;
+                right: 0;
+                bottom: 0;
+                left: 0;
+                z-index: 0;
+                display: inline-table;
+               
+            } 
+            
+            &:hover {
+              
+                .over_flow{
+                    opacity: 0;
+                    z-index: 0;
+                }
+                .over_flow2 {
+                    opacity: 1;
+                    z-index: 1;
+                
+                } 
+                
+                
+                .shop_icons_main {
+                    position: absolute;
+                    z-index: 2;
+                    top: 12px;
+                    right: 12px;
+                    list-style: none;
+                    transition:  all 0.5s ease;
+                
+                    .btn_icon {
+                        height: 36px;
+                        width: 37px;
+                        line-height: 36px;
+                        padding: 0;
+                        outline: none;
+                        text-decoration: none;
+                        font-size: 16px;
+                        letter-spacing: 0.5px;
+                        font-weight: 600;
+                        background-color: rgba(228,63,82,0.1);
+                        border: 1px solid rgba(228,63,82,0.1);
+                        color: #e43f52;
+                        box-shadow: 0 3px 5px 0 rgb(228 63 82 / 30%);
+                        display: inline-block;
+                        text-align: center;
+                        vertical-align: middle;
+                        user-select: none;
+                        border-radius: 50%;
+                        margin-bottom: 10px;
+                        &:hover {
+                            color: #fff;
+                            background-color: red;
+                        }
+                        &.btn_icon2 {
+                            color: #2f55d4;
+                            &:hover {
+                                color: #fff;
+                                background-color: #2f55d4;
+                            }
+                       
+                        }
+                        &.btn_icon3 {
+                            color: #f17425;
+                            &:hover {
+                                color: #fff;
+                                background-color: #f17425;
+                            }
+                            
+                        }
+                    }
+                   
+                
+                }
+                .out_stok {
+                    opacity: 1;
+                }
+                
+            }
+            .out_stok {
+                position: absolute;
+                bottom: -1px;
+                left: 0;
+                width: 100%;
+                height: auto;
+                z-index: 2;
+                opacity: 0;
+                transition: all 0.5s ease;
+                .stoke_head {
+                    border: 1px solid rgba(60,72,88,0.1);
+                    color: #3c4858;
+                    text-align: center;
+                    margin: 0;
+                    padding: 10px 0;
+                    border-bottom-right-radius: 6px;
+                    border-bottom-left-radius: 6px;
+                    background-color: rgba(60,72,88,0.1);
+                }
+            }
+        }
+        .starHead {
+            .star_hed {
+                transition: all 0.5s ease;
+                font-family: "Nunito",sans-serif;
+                line-height: 1.5;
+                font-weight: 600;
+                color: #3c4858; 
+                transition: all 0.5s ease;
+                &:hover {
+                    color: #2f55d4;
+                }
+            }
+            .star_main {
+                .Italic {
+                    font-style: italic;
+                    margin-top: 5px;
+                    font-weight: 400;
+                    font-size: 16px;
+                    .Deleat {
+                        margin-left: 10px;
+                        color: #e43f52;
+                    }
+                    
+                }
+                .siar_manu {
+                    .list-inline-item {
+                        color: #f17425;
+                        font-size: 14px;
+                    }
+                }
+            }
+        }
+        .fauter_txt {
+            .bac_sale {
+                background-color: #f17425
+            }
+        }
+       .fauter_txt {
+        .NEw{ 
+            background-color: #0062cc;
+        }
+       }
+        
+    }
+    .pagination {
+        .page-item {
+            .page-link {
+                
+                .mdi {
+
+                }
+            }
+        }
+    }
+}

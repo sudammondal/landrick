@@ -1,0 +1,456 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700;800&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Nunito", sans-serif;
+  overflow-x: hidden !important;
+  font-size: 16px;
+  color: #161c2d;
+}
+body a {
+  text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Nunito", sans-serif;
+  line-height: 1.5;
+  font-weight: 600;
+}
+
+.header {
+  background-color: #fff;
+  box-shadow: 0 0 3px rgba(60, 72, 88, 0.15);
+}
+.header .nav_head {
+  padding: 18px 0;
+}
+.header .nav_head .nav_containt {
+  padding-right: 0px;
+  padding-left: 0px;
+}
+.header .nav_head .nav_containt .nav_bar .logoimg {
+  max-width: 195px;
+  width: 100%;
+}
+.header .nav_head .nav_containt .nav_collapse .navbar_nav .nav-item {
+  margin: 0 3px;
+}
+.header .nav_head .nav_containt .nav_collapse .navbar_nav .nav-item .nav-link {
+  display: block;
+  color: #3c4858;
+  font-size: 13px;
+  background-color: transparent;
+  font-weight: 700;
+  letter-spacing: 1px;
+  line-height: 24px;
+  text-transform: uppercase;
+  transition: all 0.5s ease;
+  font-family: "Nunito", sans-serif;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.header .nav_head .nav_containt .nav_collapse .navbar_nav .nav-item .nav-link .drowp_icon {
+  display: inline-block;
+  margin-left: 5px;
+}
+.header .nav_head .nav_containt .nav_collapse .navbar_nav .nav-item .nav-link .drowp_icon .Dawn {
+  font-size: 20px;
+  line-height: 0.1;
+  transition: all 0.5s ease;
+}
+.header .nav_head .nav_containt .nav_collapse .navbar_nav .nav-item .nav-link:hover, .header .nav_head .nav_containt .nav_collapse .navbar_nav .nav-item .nav-link.active {
+  color: #2f55d4;
+}
+.header .nav_head .nav_containt .nav_collapse .navbar_nav .nav-item .nav-link:hover .drowp_icon .Dawn, .header .nav_head .nav_containt .nav_collapse .navbar_nav .nav-item .nav-link.active .drowp_icon .Dawn {
+  transform: rotate(180deg);
+}
+.header .nav_head .nav_containt .manu_icon {
+  list-style: none;
+  display: flex;
+  margin-bottom: 0;
+}
+.header .nav_head .nav_containt .manu_icon .manu_list {
+  padding: 5px;
+}
+.header .nav_head .nav_containt .manu_icon .manu_list .iconlink {
+  color: #2f55d4;
+  box-shadow: 0 3px 5px 0 rgba(47, 85, 212, 0.3);
+  padding: 7px 10px;
+  outline: none;
+  text-decoration: none;
+  font-size: 14px;
+  letter-spacing: 0.5px;
+  transition: all 0.3s ease;
+  font-weight: 400;
+  border-radius: 6px;
+  background-color: rgba(47, 85, 212, 0.1);
+  border: 1px solid rgba(47, 85, 212, 0.1);
+}
+.header .nav_head .nav_containt .manu_icon .manu_list .iconlink:hover {
+  color: #ffffff;
+  background-color: #2f55d4;
+}
+.header .nav_head .nav_containt .manu_icon .manu_list .iconlink2 {
+  color: #bdb8b8;
+  outline: none;
+  text-decoration: none;
+  letter-spacing: 0.5px;
+  font-weight: 400;
+  margin-right: 10px;
+}
+
+.banner_worp {
+  position: relative;
+  background-color: #ddd;
+  border-bottom-right-radius: 10%;
+  border-bottom-left-radius: 10%;
+}
+.banner_worp .prodactmain .Prodact_manu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  position: relative;
+}
+.banner_worp .prodactmain .Prodact_manu .all_prodact {
+  letter-spacing: 1px;
+  font-family: "Nunito", sans-serif;
+  line-height: 1.5;
+  font-weight: 600;
+  font-size: 24px;
+  margin-bottom: 0;
+}
+.banner_worp .banner_button {
+  position: absolute;
+  bottom: -35px;
+  right: 50%;
+  list-style: none;
+  display: inline-flex;
+  border-radius: 4px;
+  transform: translateX(50%);
+  box-shadow: 0 0 3px rgba(60, 72, 88, 0.15);
+  padding: 3px 16px;
+  background-color: #ffffff;
+}
+.banner_worp .banner_button .Bbutton .proudac_manu {
+  display: block;
+  color: #3c4858;
+  font-size: 13px;
+  background-color: transparent;
+  font-weight: 700;
+  letter-spacing: 1px;
+  line-height: 24px;
+  text-transform: uppercase;
+  transition: all 0.5s ease;
+  font-family: "Nunito", sans-serif;
+  padding: 6px 6px;
+  text-decoration: none;
+}
+.banner_worp .banner_button .Bbutton .proudac_manu .drowp_icon {
+  display: inline-block;
+  margin-left: 5px;
+}
+.banner_worp .banner_button .Bbutton .proudac_manu .drowp_icon .Dawn {
+  font-size: 20px;
+  line-height: 0.1;
+  transition: all 0.5s ease;
+}
+.banner_worp .banner_button .Bbutton .proudac_manu:hover, .banner_worp .banner_button .Bbutton .proudac_manu.active {
+  color: #2f55d4;
+}
+.banner_worp .banner_button .Bbutton .proudac_manu:hover .drowp_icon .Dawn, .banner_worp .banner_button .Bbutton .proudac_manu.active .drowp_icon .Dawn {
+  color: #2f55d4;
+}
+
+.choping_worp {
+  padding: 100px 0;
+  position: relative;
+}
+.choping_worp .catagory {
+  position: sticky;
+  top: 5px;
+  left: 0;
+}
+.choping_worp .catagory .search_bar {
+  border: 1px solid #ddd;
+  padding: 9px 14px;
+  background: #fff;
+  border-radius: 5px;
+  margin-bottom: 35px;
+}
+.choping_worp .catagory .search_bar .searchform {
+  position: relative;
+}
+.choping_worp .catagory .search_bar .searchform .border {
+  background-color: initial;
+  border: 1px solid transparent;
+  outline: none;
+  font-size: 14px;
+}
+.choping_worp .catagory .search_bar .searchform input[type=submit] {
+  float: right;
+  width: 30px;
+  opacity: 0;
+}
+.choping_worp .catagory .search_bar .searchform:before {
+  content: "";
+  font-family: "FontAwesome";
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.choping_worp .catagory .widget_title {
+  font-family: "Nunito", sans-serif;
+  line-height: 1.5;
+  font-weight: 600;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+.choping_worp .catagory .list_unstyled {
+  list-style: none;
+  margin-bottom: 35px;
+  padding: 0;
+}
+.choping_worp .catagory .list_unstyled .listManu {
+  padding-bottom: 10px;
+}
+.choping_worp .catagory .list_unstyled .listManu a {
+  font-size: 15px;
+  color: #3c4858;
+  transition: all 0.5s ease;
+  text-decoration: none;
+}
+.choping_worp .catagory .list_unstyled .listManu a:hover {
+  color: #2f55d4;
+}
+.choping_worp .catagory .list_unstyled .list-inline-item .btn {
+  height: 30px;
+  width: 30px;
+  line-height: 28px;
+  border-radius: 50%;
+}
+.choping_worp .catagory .list_unstyled .media {
+  display: flex;
+}
+.choping_worp .catagory .list_unstyled .media a .avatar {
+  width: 65px;
+}
+.choping_worp .catagory .list_unstyled .media .content {
+  margin-left: 20px;
+}
+.choping_worp .catagory .list_unstyled .media .content .text_dark {
+  color: #323c49;
+  font-family: "Nunito", sans-serif;
+  line-height: 1.5;
+  font-weight: 600;
+}
+.choping_worp .catagory .list_unstyled .media .content .text_muted {
+  color: #8492a6;
+  font-style: italic;
+  margin-top: 5px;
+}
+.choping_worp .catagory .list_unstyled .media .content .text-danger {
+  margin-left: 5px;
+}
+.choping_worp .section_title .section_h5 {
+  margin-top: 7px;
+}
+.choping_worp .Selector .form {
+  position: relative;
+}
+.choping_worp .Selector .form .form_grup .selector_h {
+  display: block;
+  width: 100%;
+  padding: 9px 10px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #2f55d4;
+  -webkit-appearance: none;
+  appearance: none;
+  border-radius: 5px;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+.choping_worp .Selector .form:before {
+  content: "";
+  font-family: "FontAwesome";
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.choping_worp .Selector .show_icon .text_muted .fa {
+  color: #75859b;
+}
+.choping_worp .shope_main {
+  margin-top: 30px;
+  position: relative;
+}
+.choping_worp .shope_main .fauter_txt {
+  position: absolute;
+  top: 20px;
+  left: -15px;
+  z-index: 2;
+  padding: 0;
+  list-style: none;
+}
+.choping_worp .shope_main .fauter_txt .fauter_pra {
+  background-color: #2eca8b;
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.15s ease;
+  font-size: 12px;
+  padding: 2px 9px;
+  border-radius: 10px;
+}
+.choping_worp .shope_main .shope_img {
+  position: relative;
+  min-height: 325px;
+  height: 100%;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  overflow: hidden;
+  box-shadow: 0px 3px 10px -5px;
+}
+.choping_worp .shope_main .shope_img .over_flow {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+  transition: all 0.5s ease;
+  display: inline-table;
+}
+.choping_worp .shope_main .shope_img .over_flow2 {
+  transition: all 0.5s ease;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 0;
+  display: inline-table;
+}
+.choping_worp .shope_main .shope_img:hover .over_flow {
+  opacity: 0;
+  z-index: 0;
+}
+.choping_worp .shope_main .shope_img:hover .over_flow2 {
+  opacity: 1;
+  z-index: 1;
+}
+.choping_worp .shope_main .shope_img:hover .shop_icons_main {
+  position: absolute;
+  z-index: 2;
+  top: 12px;
+  right: 12px;
+  list-style: none;
+  transition: all 0.5s ease;
+}
+.choping_worp .shope_main .shope_img:hover .shop_icons_main .btn_icon {
+  height: 36px;
+  width: 37px;
+  line-height: 36px;
+  padding: 0;
+  outline: none;
+  text-decoration: none;
+  font-size: 16px;
+  letter-spacing: 0.5px;
+  font-weight: 600;
+  background-color: rgba(228, 63, 82, 0.1);
+  border: 1px solid rgba(228, 63, 82, 0.1);
+  color: #e43f52;
+  box-shadow: 0 3px 5px 0 rgba(228, 63, 82, 0.3);
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+  -webkit-user-select: none;
+          user-select: none;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+.choping_worp .shope_main .shope_img:hover .shop_icons_main .btn_icon:hover {
+  color: #fff;
+  background-color: red;
+}
+.choping_worp .shope_main .shope_img:hover .shop_icons_main .btn_icon.btn_icon2 {
+  color: #2f55d4;
+}
+.choping_worp .shope_main .shope_img:hover .shop_icons_main .btn_icon.btn_icon2:hover {
+  color: #fff;
+  background-color: #2f55d4;
+}
+.choping_worp .shope_main .shope_img:hover .shop_icons_main .btn_icon.btn_icon3 {
+  color: #f17425;
+}
+.choping_worp .shope_main .shope_img:hover .shop_icons_main .btn_icon.btn_icon3:hover {
+  color: #fff;
+  background-color: #f17425;
+}
+.choping_worp .shope_main .shope_img:hover .out_stok {
+  opacity: 1;
+}
+.choping_worp .shope_main .shope_img .out_stok {
+  position: absolute;
+  bottom: -1px;
+  left: 0;
+  width: 100%;
+  height: auto;
+  z-index: 2;
+  opacity: 0;
+  transition: all 0.5s ease;
+}
+.choping_worp .shope_main .shope_img .out_stok .stoke_head {
+  border: 1px solid rgba(60, 72, 88, 0.1);
+  color: #3c4858;
+  text-align: center;
+  margin: 0;
+  padding: 10px 0;
+  border-bottom-right-radius: 6px;
+  border-bottom-left-radius: 6px;
+  background-color: rgba(60, 72, 88, 0.1);
+}
+.choping_worp .shope_main .starHead .star_hed {
+  transition: all 0.5s ease;
+  font-family: "Nunito", sans-serif;
+  line-height: 1.5;
+  font-weight: 600;
+  color: #3c4858;
+  transition: all 0.5s ease;
+}
+.choping_worp .shope_main .starHead .star_hed:hover {
+  color: #2f55d4;
+}
+.choping_worp .shope_main .starHead .star_main .Italic {
+  font-style: italic;
+  margin-top: 5px;
+  font-weight: 400;
+  font-size: 16px;
+}
+.choping_worp .shope_main .starHead .star_main .Italic .Deleat {
+  margin-left: 10px;
+  color: #e43f52;
+}
+.choping_worp .shope_main .starHead .star_main .siar_manu .list-inline-item {
+  color: #f17425;
+  font-size: 14px;
+}
+.choping_worp .shope_main .fauter_txt .bac_sale {
+  background-color: #f17425;
+}
+.choping_worp .shope_main .fauter_txt .NEw {
+  background-color: #0062cc;
+}
