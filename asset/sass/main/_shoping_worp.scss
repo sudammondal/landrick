@@ -331,13 +331,34 @@
         
     }
     .pagination {
-        .page-item {
+        margin-top: 32px;
+        .page_item {
             .page-link {
-                
-                .mdi {
-
+                padding: 6px 14px;
+                margin-left: -1px;
+                .mdilef {
+                    font-size: 14px;
+                    margin-right: 5px;
+                }
+                .mdirit {
+                    font-size: 14px;
+                    margin-left: 5px;
+                }
+                &:hover,
+                &.active {
+                    background-color: rgba(47, 85, 212, 0.9);
+                    color: #fff;
                 }
             }
+            .raunrit{
+                border-top-right-radius: 50px;
+                border-bottom-right-radius: 50px;
+            }
+            .raunlef {
+                border-top-left-radius: 50px;
+                border-bottom-left-radius: 50px;
+            }
+
         }
     }
 }
