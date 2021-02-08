@@ -594,3 +594,32 @@ h1, h2, h3, h4, h5, h6 {
   background-color: #2f55d4;
   color: #fff;
 }
+
+.footer {
+  padding: 30px 0;
+  border-top: 1px solid #283353;
+  background: #202942;
+  position: relative;
+  color: #adb5bd;
+}
+.footer .FT_text .footer_P {
+  margin: 0;
+}
+.footer .FT_text .footer_P .heard {
+  color: #e43f52;
+}
+.footer .list_unstyled {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  list-style: none;
+  float: right;
+}
+.footer .list_unstyled .footer_img {
+  margin-left: 5px;
+}
+.footer .list_unstyled .footer_img .ft_img .footerImgs {
+  max-height: 25px;
+  height: 100%;
+  text-align: end;
+}
