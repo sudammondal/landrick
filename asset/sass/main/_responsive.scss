@@ -1,0 +1,79 @@
+// XX-Large devices (larger desktops, 1400px and up)
+@media (max-width: 1400px) {}
+
+// X-Large devices (large desktops, 1200px and up)
+@media (max-width: 1200px) {
+    .banner_worp .prodactmain .Prodact_manu {
+        height: 300px;
+    }
+    .choping_worp .shope_main .shope_img {
+        min-height: 270px;
+    }
+}
+
+// Large devices (desktops, 992px and up)
+@media (max-width: 992px) {}
+
+// Medium devices (tablets, 768px and up)
+@media (max-width: 768px) {
+    .header .nav_head .nav_containt .manu_icon {
+        position: absolute;
+        left: 50%;
+        top: 22px;
+        padding: 0;
+    }
+    .navbar_nav{
+        min-height: 159px;
+        overflow-y: scroll;
+    }
+    .choping_worp .shope_main .shope_img {
+        min-height: 308px;
+    }
+    .show_icon {
+        margin-left: 5px;
+    }
+}
+
+// Small devices (landscape phones, 576px and up)
+@media (max-width: 576px) {}
+
+@media (max-width: 420px) {
+    .header .nav_head .nav_containt .nav_bar .logoimg {
+        max-width: 140px;
+    }
+    .header .nav_head .nav_containt .manu_icon {
+        position: absolute;
+        left: 47%;
+    }
+    .choping_worp .section_title .section_h5 {
+        margin: 15px 0;
+    }
+    .choping_worp .shope_main .shope_img {
+        min-height: 490px;
+    }
+    .choping_worp .shope_main .fauter_txt {
+        position: absolute;
+        top: 20px;
+        left: -10px;
+    }
+    .footer_top {
+        text-align: center;
+        .f_iconmain {
+            display: inline-flex;
+        }
+    }
+    .footer {
+        text-align: center;
+        .list_unstyled {
+            margin: 0;
+            padding: 0;
+            display: inline-flex;
+            list-style: none;
+            float: right;
+            float: inherit;
+            margin: 0 auto;
+            margin-top: 10px;
+        }
+    }
+}
+

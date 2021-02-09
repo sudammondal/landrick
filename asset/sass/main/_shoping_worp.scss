@@ -15,7 +15,7 @@
                 position: relative;
                 .border {
                     background-color: initial;
-                    border: 1px solid transparent;
+                    border: 1px solid transparent !important;
                     outline: none;
                     font-size: 14px;
                    
@@ -103,6 +103,7 @@
     .section_title{
         .section_h5 {
             margin-top: 7px;
+            margin: 0;
         }
     }
     .Selector {
