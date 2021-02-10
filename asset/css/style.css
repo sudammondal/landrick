@@ -719,6 +719,10 @@ h1, h2, h3, h4, h5, h6 {
     overflow-y: scroll;
   }
 
+  .banner_worp .banner_button .Bbutton .proudac_manu .drowp_icon {
+    display: none;
+  }
+
   .choping_worp .shope_main .shope_img {
     min-height: 308px;
   }
