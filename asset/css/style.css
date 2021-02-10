@@ -711,6 +711,7 @@ h1, h2, h3, h4, h5, h6 {
     left: 50%;
     top: 22px;
     padding: 0;
+    transform: translate(-50%);
   }
 
   .navbar_nav {
@@ -726,14 +727,63 @@ h1, h2, h3, h4, h5, h6 {
     margin-left: 5px;
   }
 }
+@media (max-width: 736px) {
+  .footer .container {
+    width: 100%;
+    padding-right: var(--bs-gutter-x, 0.75rem);
+    padding-left: var(--bs-gutter-x, 0.75rem);
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .choping_worp .section_title .section_h5 {
+    margin: 30px 0px;
+  }
+
+  .choping_worp .shope_main .shope_img {
+    min-height: 645px;
+  }
+
+  .footer_top {
+    text-align: center;
+  }
+  .footer_top .footer_list {
+    margin-bottom: 30px;
+  }
+  .footer_top .f_iconmain {
+    display: inline-flex;
+  }
+
+  .footer {
+    text-align: center;
+  }
+  .footer .list_unstyled {
+    margin: 0;
+    padding: 0;
+    display: inline-flex;
+    list-style: none;
+    float: right;
+    float: inherit;
+    margin: 0 auto;
+    margin-top: 10px;
+  }
+
+  .header .nav_head .nav_containt .nav_bar .logoimg {
+    max-width: 140px;
+    width: 100%;
+  }
+}
+@media (max-width: 576px) {
+  .choping_worp .shope_main .fauter_txt {
+    left: -12px;
+  }
+}
 @media (max-width: 420px) {
   .header .nav_head .nav_containt .nav_bar .logoimg {
     max-width: 140px;
   }
-
   .header .nav_head .nav_containt .manu_icon {
-    position: absolute;
-    left: 47%;
+    right: 130px;
   }
 
   .choping_worp .section_title .section_h5 {
@@ -743,7 +793,6 @@ h1, h2, h3, h4, h5, h6 {
   .choping_worp .shope_main .shope_img {
     min-height: 490px;
   }
-
   .choping_worp .shope_main .fauter_txt {
     position: absolute;
     top: 20px;
@@ -769,5 +818,40 @@ h1, h2, h3, h4, h5, h6 {
     float: inherit;
     margin: 0 auto;
     margin-top: 10px;
+  }
+}
+@media (max-width: 376px) {
+  .header .nav_head .nav_containt .manu_icon {
+    position: absolute;
+    right: 150px;
+  }
+
+  .choping_worp .shope_main .shope_img {
+    min-height: 440px;
+  }
+  .choping_worp .section_title .section_h5 {
+    margin: 20px 0;
+  }
+}
+@media (max-width: 360px) {
+  .header .nav_head .nav_containt .nav_bar .logoimg {
+    max-width: 100px;
+  }
+  .header .nav_head .nav_containt .manu_icon {
+    position: absolute;
+    right: 100px;
+  }
+}
+@media (max-width: 320px) {
+  .choping_worp .shope_main .shope_img {
+    min-height: 370px;
+  }
+
+  .header .nav_head .nav_containt .nav_bar .logoimg {
+    max-width: 95px;
+  }
+  .header .nav_head .nav_containt .manu_icon {
+    position: absolute;
+    right: 69px;
   }
 }
