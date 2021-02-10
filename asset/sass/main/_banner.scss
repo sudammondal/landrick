@@ -1,8 +1,32 @@
 .banner_worp {
     position: relative;
-        background-color: #ddd;
-        border-bottom-right-radius: 10%;
-        border-bottom-left-radius: 10%;
+    background-color: #ddd;
+    border-bottom-right-radius: 10%;
+    border-bottom-left-radius: 10%;
+    .sett_bottom {
+        position: fixed;
+        left: 0;
+        top: 100px;
+        width: 45px;
+        height: 40px;
+        background: #fff;
+        border-top-right-radius: 50px;
+        border-bottom-right-radius: 50px;
+        top: 17%;
+        z-index: 9999;
+        box-shadow: 0 0 3px rgb(60 72 88 / 15%);
+        .setting {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            height: 40px;
+            width: 45px;
+            .setting_icon {
+                font-size: 26px;
+            }
+        }
+    }
     .prodactmain {
         .Prodact_manu {
             display: flex;
@@ -32,7 +56,6 @@
         padding: 3px 16px;
         background-color: #ffffff;
         .Bbutton{
-            
             .proudac_manu {
                 display: block;
                 color: #3c4858;

@@ -28,7 +28,7 @@ h1, h2, h3, h4, h5, h6 {
   top: 0;
   left: 0;
   width: 100%;
-  z-index: 2;
+  z-index: 1080;
 }
 .header .nav_head {
   padding: 18px 0;
@@ -152,6 +152,30 @@ h1, h2, h3, h4, h5, h6 {
   background-color: #ddd;
   border-bottom-right-radius: 10%;
   border-bottom-left-radius: 10%;
+}
+.banner_worp .sett_bottom {
+  position: fixed;
+  left: 0;
+  top: 100px;
+  width: 45px;
+  height: 40px;
+  background: #fff;
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
+  top: 17%;
+  z-index: 9999;
+  box-shadow: 0 0 3px rgba(60, 72, 88, 0.15);
+}
+.banner_worp .sett_bottom .setting {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 40px;
+  width: 45px;
+}
+.banner_worp .sett_bottom .setting .setting_icon {
+  font-size: 26px;
 }
 .banner_worp .prodactmain .Prodact_manu {
   display: flex;
@@ -367,7 +391,7 @@ h1, h2, h3, h4, h5, h6 {
   border: 1px solid #ddd;
   border-radius: 6px;
   overflow: hidden;
-  box-shadow: 0px 3px 10px -5px;
+  box-shadow: 0 11px 21px #d4d8e4;
 }
 .choping_worp .shope_main .shope_img .over_flow {
   position: absolute;
@@ -729,6 +753,10 @@ h1, h2, h3, h4, h5, h6 {
 
   .show_icon {
     margin-left: 5px;
+  }
+
+  .banner_worp .sett_bottom {
+    display: none;
   }
 }
 @media (max-width: 736px) {
