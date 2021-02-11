@@ -152,7 +152,7 @@ h1, h2, h3, h4, h5, h6 {
   background-color: #fff;
   border-bottom-right-radius: 10%;
   border-bottom-left-radius: 10%;
-  background-image: url(../imgs/mobile-shopping-banner_2022428.jpg);
+  background-image: url(../imgs/slider12_4d489365-da55-49c6-9504-a1f5f82b4111_1950x.webp);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -166,8 +166,8 @@ h1, h2, h3, h4, h5, h6 {
   height: 100%;
   border-bottom-right-radius: 10%;
   border-bottom-left-radius: 10%;
-  opacity: 0.7;
-  background-color: #020202;
+  opacity: 0.6;
+  background-color: #02020296;
 }
 .banner_worp .sett_bottom {
   position: fixed;
